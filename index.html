@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="theme-icon-container">
+                <img id="themeToggle" class="theme-icon" src="sun-icon.png" alt="Toggle Theme">
+            </div>
+            <h1>Typing Speed Test</h1>
+            <div class="live-speed">
+                Live Speed: <span id="wpm">0</span> WPM
+            </div>
+        </header>
+        <div class="typing-area">
+            <div id="overlay-text"></div>
+            <textarea id="inputBox"></textarea>
+        </div>
+        <div class="footer">
+            <div class="timer">
+                Time Remaining: <span id="timer">30</span>s
+            </div>
+            <button id="restart">Restart</button>
+            <div class="result" id="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
